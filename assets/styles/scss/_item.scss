@@ -1,0 +1,35 @@
+.item {
+    font-size: .8rem;
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+    border-bottom: 1px solid var(--neutral-text-dividers-light-grayish-blue);
+
+    &__question {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__answer {
+        font-weight: 400;
+        color: var(--neutral-text-dark-grayish-blue);
+        font-size: .7rem;
+        padding-right: 2rem;
+        line-height: 1.7;
+        margin-bottom: 0;
+    }
+
+    &[open] {
+        .item {
+            &__question {
+                font-weight: 700;
+                img {
+                    transform: rotate(180deg);
+                }
+            }
+
+        }
+    }
+
+}
