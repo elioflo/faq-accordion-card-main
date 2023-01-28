@@ -10,3 +10,12 @@
 
   --neutral-text-dividers-light-grayish-blue: hsl(240, 5%, 91%);
 }
+
+
+$min-tablet: 425px;
+$min-laptop: 768px;
+$min-desktop: 1024px;
+$tablet: "min-width: #{$min-tablet}";
+$laptop: "min-width: #{$min-laptop}";
+$desktop: "min-width: #{$min-desktop}";
+
