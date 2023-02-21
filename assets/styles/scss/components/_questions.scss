@@ -1,0 +1,8 @@
+.questions {
+  width: calc(100% - 3rem);
+  margin: auto;
+
+  &__title {
+    text-align: center;
+  }
+}

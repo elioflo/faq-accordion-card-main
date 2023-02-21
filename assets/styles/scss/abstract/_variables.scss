@@ -1,3 +1,13 @@
+/*:root {
+  --main-color: #393E46;
+  --main-bg-color: #FAFAFA;
+}
+
+:root.dark {
+  --main-color: #FAFAFA;
+  --main-bg-color: #393E46;
+}*/
+
 :root {
   --primary-text-very-dark-desaturated-blue: hsl(238, 29%, 16%);
   --primary-text-soft-red: hsl(14, 88%, 65%);
@@ -10,12 +20,3 @@
 
   --neutral-text-dividers-light-grayish-blue: hsl(240, 5%, 91%);
 }
-
-
-$min-tablet: 425px;
-$min-laptop: 768px;
-$min-desktop: 1024px;
-$tablet: "min-width: #{$min-tablet}";
-$laptop: "min-width: #{$min-laptop}";
-$desktop: "min-width: #{$min-desktop}";
-

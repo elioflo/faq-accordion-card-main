@@ -16,51 +16,53 @@
 
 <body class="container">
   <main class="main">
-    <div class="main__imgs">
-      <img class="main__main" src="./assets/images/illustration-woman-online-mobile.svg" alt="">
-      <img class="main__bg" src="./assets/images/bg-pattern-mobile.svg" alt="">
+    <div class="img">
+      <picture class="img__main">
+        <source media="(min-width: 800px)" srcset="./assets/images/illustration-woman-online-desktop.svg" />
+        <img src="./assets/images/illustration-woman-online-mobile.svg" alt="">
+      </picture>
     </div>
-    <section class="main__content">
-      <h1 class="main__title">FAQ</h1>
-      <details class="item">
-        <summary class="item__question">
+    <section class="questions">
+      <h1 class="questions__title">FAQ</h1>
+      <details class="faq">
+        <summary class="faq__question">
           How many team members can I invite? <img class="something__icon" src="./assets/images/icon-arrow-down.svg" alt="">
         </summary>
-        <p class="item__answer">
+        <p class="faq__answer">
           You can invite up to 2 additional users on the Free plan. There is no limit on
           team members for the Premium plan.
         </p>
       </details>
-      <details class="item">
-        <summary class="item__question">
+      <details class="faq">
+        <summary class="faq__question">
           What is the maximum file upload size? <img src="./assets/images/icon-arrow-down.svg" alt="">
         </summary>
-        <p class="item__answer">
+        <p class="faq__answer">
           No more than 2GB. All files in your account must fit your allotted storage space.
         </p>
       </details>
-      <details class="item">
-        <summary class="item__question">
+      <details class="faq">
+        <summary class="faq__question">
           How do I reset my password? <img src="./assets/images/icon-arrow-down.svg" alt="">
         </summary>
-        <p class="item__answer">
+        <p class="faq__answer">
           Click “Forgot password” from the login page or “Change password” from your profile page.
           A reset link will be emailed to you.
         </p>
       </details>
-      <details class="item">
-        <summary class="item__question">
+      <details class="faq">
+        <summary class="faq__question">
           Can I cancel my subscription? <img src="./assets/images/icon-arrow-down.svg" alt="">
         </summary>
-        <p class="item__answer">
+        <p class="faq__answer">
           Yes! Send us a message and we’ll process your request no questions asked.
         </p>
       </details>
-      <details class="item">
-        <summary class="item__question">
+      <details class="faq">
+        <summary class="faq__question">
           Do you provide additional support? <img src="./assets/images/icon-arrow-down.svg" alt="">
         </summary>
-        <p class="item__answer">
+        <p class="faq__answer">
           Chat and email support is available 24/7. Phone lines are open during normal business hours.
         </p>
       </details>

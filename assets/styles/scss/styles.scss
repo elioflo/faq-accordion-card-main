@@ -1,6 +1,8 @@
-@use 'normalize';
-@use 'variables';
-@use 'base';
-@use 'container';
-@use 'main';
-@use 'item';
+@use 'abstract/variables';
+@use 'base/typography';
+@use 'base/reset';
+@use 'components/container';
+@use 'components/main';
+@use 'components/img';
+@use 'components/questions';
+@use 'components/faq';
